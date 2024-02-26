@@ -27,7 +27,7 @@ function Signup() {
        
        <div>
         <label htmlFor="name"><b>name</b></label>
-        <input type="text" placeholder='enter name'
+        <input type="text" placeholder='enter your name'
          autoComplete='off' name='name' required
          onChange={(e)=> setName(e.target.value)}
          
